@@ -429,6 +429,10 @@ a:hover {
   position: absolute;
   bottom: 60px;
   right: -100px;
+  transition: 0.3;
+}
+.bookings__small-card:hover {
+  transform: skew(345deg);
 }
 .bookings__card {
   display: flex;
@@ -675,6 +679,7 @@ a:hover {
   margin-right: 24px;
   position: relative;
   z-index: 10;
+  transition: 0.3;
 }
 .subscription__input::-moz-placeholder {
   color: var(--text);
@@ -685,6 +690,9 @@ a:hover {
   color: var(--text);
   font-family: var(--montserrat);
   font-size: 14px;
+}
+.subscription__input:hover {
+  transform: translate(50px, 0);
 }
 .subscription__circle-left {
   background-image: url(../img/circle-bottom.png);
