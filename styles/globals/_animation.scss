@@ -1,0 +1,28 @@
+@keyframes burgerTop {
+    from {
+        bottom: 27px;
+    }
+    33% {
+        bottom: 23px;
+    }
+    66% {
+        bottom: 20px;
+    }
+    to {
+        background-color: transparent;
+    }
+}
+@keyframes burgerBottom {
+    from {
+        bottom: 14px;
+    }
+    33% {
+        bottom: 10px;
+    }
+    66% {
+        bottom: 5px;
+    }
+    to {
+        background-color: transparent;
+    }
+}
